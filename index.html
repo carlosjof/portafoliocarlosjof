@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C.J. - Portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
+    <script src="jquery.fullpage.js"></script>
+
+    <!--animacion-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    <div class="animated fadeIn menu">
+        <nav>
+            <div class="logo"><a href="#">C.J.</a></div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Conocimientos</a></li>
+                <li><a href="#">Trabajos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="fullpage">
+<section>
+    <div class="presentacion">
+        <div class="titulo-desarrollador">
+            <h2 class="animated slideInLeft">Desarrollador de Software</h2>
+        </div>
+        <div class="animated slideInLeft parrafo-presentacion">
+            <p class="p-presentacion">¡Hola!, mi nombre es </p>
+            <p class="p-nombre">Carlos José Ozuna Frías</style></p>
+            <p class="p-presentacion2"> y permíteme mostrarte mis conocimientos y mis trabajos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="conocimientos">
+    <div class="conocimientos">
+        <h1 class="titulo-conocimientos">Conocimientos</h1>
+        <div class="conocimientos-lista">
+            <ul class="desarrolloweb">
+                <h3>Desarrollo Web</h3>
+                <li>HTML, CSS, JavaScript</li>
+                <li>ASP.NET</li>
+                <li>Android (JAVA)</li>
+            </ul>
+            <ul class="basededatos">
+                <h3>Base de Datos</h3>
+                <li>SQL Server</li>
+                <li>MySQL</li>
+                <li>FireBase</li>
+            </ul>
+            <ul class="desarrollomovil">
+                <h3>Desarrollo Movil</h3>
+                <li>Android (JAVA)</li>
+            </ul>
+        </div>
+        <div class="resumen">
+            <h2>Resumen</h2>
+            <a href="CV-Plantilla.jpg" target="_blank">
+            <button class="btn-resumen">Echar un vistazo</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="trabajos">
+        <h2>Trabajos</h2>
+        <img src="Proyecto-Comunidad2.png" class="animated zoomIn delay-2s sombra-hover">
+        <img src="Proyecto-UX1.png" class="animated zoomIn delay-2s sombra-hover">
+        <img src="Proyecto-UX3.png" class="animated zoomIn delay-2s sombra-hover">
+    </div>
+</section>
+
+<section>
+    <div class="contacto">
+        <h2>Contacto</h2>
+        <p>Si necesitas de mis servicios no dudes en contactarme por estas vías</p>
+                <div class="github">
+                 <a href="https://github.com/carlosjof" target="_blank">
+                    <img src="github.png" alt="github" class="img-github">
+                </a>
+                <a href="https://github.com/carlosjof" target="_blank" class="github-texto">/carlosjof</a>
+                </div>
+
+                <div class="gmail">
+                <a href="mailto:carlosjoseof@gmail.com" target="_top">
+                    <div class="img-gmail">
+                    <img src="gmail.png" alt="gmail" class="img-gmail">
+                </div>
+                </a>
+                <a href="mailto:carlosjoseof@gmail.com" target="_top" class="gmail-texto">carlosjoseof@gmail.com</a>
+                </div>
+
+                <a href="https://www.linkedin.com/in/carlos-jos%C3%A9-ozuna-fr%C3%ADas-855405117/" target="_blank">
+                    <img src="linkedin.png" alt="linkedin" class="img-linkedin">
+                </a>
+            <a href="https://www.linkedin.com/in/carlos-jos%C3%A9-ozuna-fr%C3%ADas-855405117/" target="_blank" class="texto-linkedin">Carlos José Ozuna Frías</a>
+    </div>
+</section>
+</div>
+    <script type="text/javascript">
+    FastClick.attach(document.body);
+        $('#fullpage').fullpage(); 
+    </script>
+</body>
+</html>
