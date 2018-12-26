@@ -268,3 +268,51 @@ nav ul li a:hover {
 .texto-linkedin{
     margin-left: 63%;
 }
+
+@media only screen and (max-width: 795px){
+    nav ul{
+        display: none;
+    }
+
+    nav .logo a{
+        padding-left: 2px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 300px){
+    .presentacion .titulo-desarrollador h2{
+        font-size: 40px;
+        padding-top: 40%;
+        margin-left: -30px;
+    }
+
+    .presentacion .parrafo-presentacion .p-presentacion{
+        padding-top: 20%;
+        font-size: 20px;
+        margin-left: -30px;
+    }
+
+    .presentacion .parrafo-presentacion .p-nombre{
+        font-size: 20px;
+        margin-right: -25%;
+        margin-left: -84px;
+    }
+    .presentacion .parrafo-presentacion .p-presentacion2{
+        font-size: 20px;
+        margin-top: -16px;
+        margin-left: -30px;
+    }
+
+    .titulo-conocimientos{
+        margin-left: -10%;
+        font-size: 25px;
+        margin-top: 25%;
+    }
+    
+    .conocimientos h3{
+        margin-top: 8%;
+    }
+}
