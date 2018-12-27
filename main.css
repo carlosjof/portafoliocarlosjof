@@ -281,34 +281,82 @@ nav ul li a:hover {
 
 }
 
-
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 768px){
     .presentacion .titulo-desarrollador h2{
-        font-size: 40px;
+        font-size: 4rem;
+    }
+
+    .presentacion .parrafo-presentacion .p-presentacion{
+        padding-top: 15%;
+        font-size: 1.8rem;
+    }
+
+    .presentacion .parrafo-presentacion .p-nombre{
+        font-size: 1.8rem;
+        padding-left: 18%;
+        padding-top: 2%;
+    }
+
+    .presentacion .parrafo-presentacion .p-presentacion2{
+        font-size: 1.8rem;
+        margin-right: 13%;
+    }
+
+    .resumen h2 {
+        padding-top: 2.8%;
+    }
+}
+
+@media only screen and (max-width: 230px){
+    .presentacion .parrafo-presentacion .p-presentacion{
+        margin-top: 45%;
+    }
+}
+
+@media only screen and (max-width: 865px){
+    .presentacion .parrafo-presentacion .p-nombre{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .presentacion .parrafo-presentacion .p-nombre{
+        padding-left: 38%;
+    }
+}
+
+@media only screen and (max-width: 1087px){
+    .presentacion .parrafo-presentacion .p-nombre{
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .presentacion .titulo-desarrollador h2{
+        font-size: 2.5rem;
         padding-top: 40%;
-        margin-left: -30px;
+        margin-left: -8%;
     }
 
     .presentacion .parrafo-presentacion .p-presentacion{
         padding-top: 20%;
-        font-size: 20px;
-        margin-left: -30px;
+        font-size: 1.2rem;
+        margin-left: -7%;
     }
 
     .presentacion .parrafo-presentacion .p-nombre{
-        font-size: 20px;
-        margin-right: -25%;
-        margin-left: -84px;
+        font-size: 1.2rem;
+        padding-left: 11%;
     }
     .presentacion .parrafo-presentacion .p-presentacion2{
-        font-size: 20px;
+        font-size: 1.2rem;
         margin-top: -16px;
-        margin-left: -30px;
+        margin-left: -7%;
     }
 
     .titulo-conocimientos{
         margin-left: -10%;
-        font-size: 25px;
+        font-size: 1.5rem;
         margin-top: 25%;
     }
     
